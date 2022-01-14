@@ -1,0 +1,6 @@
+# 6311
+
+str = "ADCBBBBCABBCBDACBDCAACDDDCAABABDBCBCBDBDBDDABBAAAAAAADADBDBCBDABADCADC"
+
+print(sum(list(map(lambda x: 69 - ord(x), str))))
+
